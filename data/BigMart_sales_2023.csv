@@ -1,0 +1,451 @@
+date,store_id,product_id,units_sold,price,product_category,stock_available,store_location,weekday
+02-01-2023,str_01,pdt_005,50,13.54,Frozen,51,New York,Monday
+02-01-2023,str_02,pdt_005,69,27.44,Frozen,92,Los Angeles,Monday
+02-01-2023,str_03,pdt_001,60,27.75,Beverage,14,Chicago,Monday
+03-01-2023,str_01,pdt_003,16,7.27,Dairy,71,New York,Tuesday
+03-01-2023,str_02,pdt_004,46,29.15,Household,60,Los Angeles,Tuesday
+03-01-2023,str_03,pdt_003,56,39.37,Dairy,,Chicago,Tuesday
+04-01-2023,str_01,pdt_001,82,30.28,Beverage,20,New York,Wednesday
+04-01-2023,str_02,pdt_001,59,27.69,Beverage,82,Los Angeles,Wednesday
+04-01-2023,str_03,pdt_005,97,32.5,Frozen,86,Chicago,Wednesday
+05-01-2023,str_01,pdt_004,57,40.77,,74,New York,Thursday
+05-01-2023,str_02,pdt_003,28,13.96,Dairy,74,Los Angeles,Thursday
+05-01-2023,str_03,pdt_001,14,11.17,Beverage,87,Chicago,Thursday
+06-01-2023,str_01,pdt_005,68,11.7,Frozen,99,New York,Friday
+06-01-2023,str_02,pdt_005,50,12.31,Frozen,23,Los Angeles,Friday
+06-01-2023,str_03,pdt_005,75,28.96,Frozen,2,Chicago,Friday
+07-01-2023,str_01,pdt_001,57,19.91,Beverage,21,New York,Saturday
+07-01-2023,str_02,pdt_005,49,40.85,Frozen,52,Los Angeles,Saturday
+07-01-2023,str_03,pdt_003,93,40.23,Dairy,1,Chicago,Saturday
+09-01-2023,str_01,pdt_005,71,12.67,Frozen,87,New York,Monday
+09-01-2023,str_02,pdt_002,14,30.77,Snack,29,Los Angeles,Monday
+09-01-2023,str_03,pdt_004,50,23.85,Household,37,Chicago,Monday
+10-01-2023,str_01,pdt_004,74,39.87,Household,1,New York,Tuesday
+10-01-2023,str_02,pdt_001,100,11.21,Beverage,63,Los Angeles,Tuesday
+10-01-2023,str_03,pdt_004,77,21.96,Household,59,Chicago,Tuesday
+11-01-2023,str_01,pdt_005,53,29.58,Frozen,20,New York,Wednesday
+11-01-2023,str_02,pdt_002,41,17.56,Snack,32,Los Angeles,Wednesday
+11-01-2023,str_03,pdt_003,46,36.72,Dairy,75,Chicago,Wednesday
+12-01-2023,str_01,pdt_003,81,47.02,Dairy,57,New York,Thursday
+12-01-2023,str_02,pdt_005,96,29.44,Frozen,21,Los Angeles,Thursday
+12-01-2023,str_03,pdt_002,47,6.89,Snack,88,Chicago,Thursday
+13-01-2023,str_01,pdt_004,93,16.54,Household,48,New York,Friday
+13-01-2023,str_02,pdt_005,44,46.99,Frozen,90,Los Angeles,Friday
+13-01-2023,str_03,pdt_005,85,15.77,Frozen,58,Chicago,Friday
+14-01-2023,str_01,pdt_005,38,33.71,Frozen,41,New York,Saturday
+14-01-2023,str_02,pdt_003,70,9.52,,,Los Angeles,Saturday
+14-01-2023,str_03,pdt_005,30,23.31,Frozen,91,Chicago,Saturday
+16-01-2023,str_01,pdt_002,46,19.45,Snack,59,New York,Monday
+16-01-2023,str_02,pdt_001,93,30.84,Beverage,79,Los Angeles,Monday
+16-01-2023,str_03,pdt_002,63,44.7,Snack,14,Chicago,Monday
+17-01-2023,str_01,pdt_001,60,40.46,Beverage,61,New York,Tuesday
+17-01-2023,str_02,pdt_003,14,5.42,Dairy,61,Los Angeles,Tuesday
+17-01-2023,str_03,pdt_003,46,25.45,Dairy,46,Chicago,Tuesday
+18-01-2023,str_01,pdt_002,74,26.06,Snack,61,New York,Wednesday
+18-01-2023,str_02,pdt_003,30,37.9,Dairy,50,Los Angeles,Wednesday
+18-01-2023,str_03,pdt_001,53,40.58,Beverage,54,Chicago,Wednesday
+19-01-2023,str_01,pdt_004,64,28.19,Household,63,New York,Thursday
+19-01-2023,str_02,pdt_001,33,49.18,Beverage,2,Los Angeles,Thursday
+19-01-2023,str_03,pdt_002,10,16.74,Snack,100,Chicago,Thursday
+20-01-2023,str_01,pdt_003,52,18.59,Dairy,50,New York,Friday
+20-01-2023,str_02,pdt_003,98,15.63,Dairy,6,Los Angeles,Friday
+20-01-2023,str_03,pdt_002,61,35.87,Snack,20,Chicago,Friday
+21-01-2023,str_01,pdt_003,57,32.66,Dairy,72,New York,Saturday
+21-01-2023,str_02,pdt_004,29,25.47,Household,38,Los Angeles,Saturday
+21-01-2023,str_03,pdt_005,70,39.08,Frozen,17,Chicago,Saturday
+23-01-2023,str_01,pdt_005,20,28.65,Frozen,,New York,Monday
+23-01-2023,str_02,pdt_005,24,7.78,Frozen,3,Los Angeles,Monday
+23-01-2023,str_03,pdt_002,31,19.77,Snack,88,Chicago,Monday
+24-01-2023,str_01,pdt_002,84,27,Snack,59,New York,Tuesday
+24-01-2023,str_02,pdt_004,26,28.1,Household,13,Los Angeles,Tuesday
+24-01-2023,str_03,pdt_005,69,35.27,Frozen,8,Chicago,Tuesday
+25-01-2023,str_01,pdt_004,42,41.74,Household,89,New York,Wednesday
+25-01-2023,str_02,pdt_001,64,20.5,Beverage,52,Los Angeles,Wednesday
+25-01-2023,str_03,pdt_001,18,49.38,Beverage,,Chicago,Wednesday
+26-01-2023,str_01,pdt_004,0,0,Household,1,New York,Thursday
+26-01-2023,str_02,pdt_002,0,0,Snack,83,Los Angeles,Thursday
+26-01-2023,str_03,pdt_004,0,0,,91,Chicago,Thursday
+27-01-2023,str_01,pdt_004,67,44.13,Household,59,New York,Friday
+27-01-2023,str_02,pdt_005,27,34.41,Frozen,70,Los Angeles,Friday
+27-01-2023,str_03,pdt_005,60,28.8,Frozen,43,Chicago,Friday
+28-01-2023,str_01,pdt_001,48,25.84,Beverage,7,New York,Saturday
+28-01-2023,str_02,pdt_002,41,25.73,Snack,46,Los Angeles,Saturday
+28-01-2023,str_03,pdt_001,14,41.43,Beverage,34,Chicago,Saturday
+30-01-2023,str_01,pdt_001,40,14.27,Beverage,77,New York,Monday
+30-01-2023,str_02,pdt_004,86,35.24,Household,80,Los Angeles,Monday
+30-01-2023,str_03,pdt_001,61,24.75,Beverage,35,Chicago,Monday
+31-01-2023,str_01,pdt_001,27,27.68,Beverage,49,New York,Tuesday
+31-01-2023,str_02,pdt_005,50,30.99,Frozen,3,Los Angeles,Tuesday
+31-01-2023,str_03,pdt_002,94,28.46,Snack,1,Chicago,Tuesday
+01-02-2023,str_01,pdt_001,81,47.68,Beverage,5,New York,Wednesday
+01-02-2023,str_02,pdt_004,81,27.3,Household,53,Los Angeles,Wednesday
+01-02-2023,str_03,pdt_004,77,19.34,Household,3,Chicago,Wednesday
+02-02-2023,str_01,pdt_003,58,13.27,Dairy,53,New York,Thursday
+02-02-2023,str_02,pdt_002,48,43.59,Snack,92,Los Angeles,Thursday
+02-02-2023,str_03,pdt_001,81,23.57,Beverage,62,Chicago,Thursday
+03-02-2023,str_01,pdt_002,59,15.93,Snack,17,New York,Friday
+03-02-2023,str_02,pdt_001,67,43.12,Beverage,89,Los Angeles,Friday
+03-02-2023,str_03,pdt_002,16,17.08,Snack,43,Chicago,Friday
+04-02-2023,str_01,pdt_002,85,37.59,Snack,33,New York,Saturday
+04-02-2023,str_02,pdt_003,48,48.07,Dairy,73,Los Angeles,Saturday
+04-02-2023,str_03,pdt_002,25,38.61,Snack,61,Chicago,Saturday
+06-02-2023,str_01,pdt_005,100,14.2,Frozen,99,New York,Monday
+06-02-2023,str_02,pdt_003,58,25.98,Dairy,13,Los Angeles,Monday
+06-02-2023,str_03,pdt_003,75,44.73,,,Chicago,Monday
+07-02-2023,str_01,pdt_004,50,46.14,Household,94,New York,Tuesday
+07-02-2023,str_02,pdt_001,82,43.88,Beverage,,Los Angeles,Tuesday
+07-02-2023,str_03,pdt_005,84,31.06,Frozen,47,Chicago,Tuesday
+08-02-2023,str_01,pdt_002,52,15.35,Snack,14,New York,Wednesday
+08-02-2023,str_02,pdt_003,42,39.35,Dairy,71,Los Angeles,Wednesday
+08-02-2023,str_03,pdt_004,68,12.57,Household,77,Chicago,Wednesday
+09-02-2023,str_01,pdt_005,72,13.28,Frozen,86,New York,Thursday
+09-02-2023,str_02,pdt_001,95,7.18,Beverage,61,Los Angeles,Thursday
+09-02-2023,str_03,pdt_002,18,36.82,Snack,39,Chicago,Thursday
+10-02-2023,str_01,pdt_004,57,7.72,Household,84,New York,Friday
+10-02-2023,str_02,pdt_001,10,28.95,Beverage,,Los Angeles,Friday
+10-02-2023,str_03,pdt_005,45,29.11,Frozen,,Chicago,Friday
+11-02-2023,str_01,pdt_004,32,9.82,Household,79,New York,Saturday
+11-02-2023,str_02,pdt_002,34,32.89,Snack,81,Los Angeles,Saturday
+11-02-2023,str_03,pdt_003,60,8.56,Dairy,52,Chicago,Saturday
+13-02-2023,str_01,pdt_002,99,15.16,Snack,23,New York,Monday
+13-02-2023,str_02,pdt_001,21,23.24,Beverage,25,Los Angeles,Monday
+13-02-2023,str_03,pdt_001,91,5.43,Beverage,,Chicago,Monday
+14-02-2023,str_01,pdt_004,92,40.3,Household,88,New York,Tuesday
+14-02-2023,str_02,pdt_001,39,14.51,Beverage,59,Los Angeles,Tuesday
+14-02-2023,str_03,pdt_001,97,46.65,Beverage,40,Chicago,Tuesday
+15-02-2023,str_01,pdt_003,12,48.27,Dairy,28,New York,Wednesday
+15-02-2023,str_02,pdt_004,19,18.47,Household,14,Los Angeles,Wednesday
+15-02-2023,str_03,pdt_004,96,45.34,Household,44,Chicago,Wednesday
+16-02-2023,str_01,pdt_002,98,37.59,Snack,,New York,Thursday
+16-02-2023,str_02,pdt_004,39,42.74,Household,64,Los Angeles,Thursday
+16-02-2023,str_03,pdt_005,86,22.85,,,Chicago,Thursday
+17-02-2023,str_01,pdt_003,67,27.08,Dairy,88,New York,Friday
+17-02-2023,str_02,pdt_004,65,13.36,Household,,Los Angeles,Friday
+17-02-2023,str_03,pdt_005,47,40.91,Frozen,,Chicago,Friday
+18-02-2023,str_01,pdt_002,58,37.03,Snack,70,New York,Saturday
+18-02-2023,str_02,pdt_003,56,9.79,Dairy,8,Los Angeles,Saturday
+18-02-2023,str_03,pdt_004,56,39.26,Household,87,Chicago,Saturday
+20-02-2023,str_01,pdt_002,65,25.2,Snack,0,New York,Monday
+20-02-2023,str_02,pdt_001,55,29.94,Beverage,7,Los Angeles,Monday
+20-02-2023,str_03,pdt_001,47,23.62,Beverage,87,Chicago,Monday
+21-02-2023,str_01,pdt_005,41,30.74,Frozen,62,New York,Tuesday
+21-02-2023,str_02,pdt_002,27,17.1,Snack,10,Los Angeles,Tuesday
+21-02-2023,str_03,pdt_001,31,24.56,Beverage,80,Chicago,Tuesday
+22-02-2023,str_01,pdt_001,56,16.33,Beverage,7,New York,Wednesday
+22-02-2023,str_02,pdt_004,86,32.75,Household,34,Los Angeles,Wednesday
+22-02-2023,str_03,pdt_003,10,47.7,Dairy,34,Chicago,Wednesday
+23-02-2023,str_01,pdt_004,52,24.81,Household,32,New York,Thursday
+23-02-2023,str_02,pdt_005,27,18.52,Frozen,4,Los Angeles,Thursday
+23-02-2023,str_03,pdt_002,60,48.59,Snack,40,Chicago,Thursday
+24-02-2023,str_01,pdt_004,83,40.19,Household,27,New York,Friday
+24-02-2023,str_02,pdt_004,56,10.12,Household,6,Los Angeles,Friday
+24-02-2023,str_03,pdt_005,33,35.68,Frozen,72,Chicago,Friday
+25-02-2023,str_01,pdt_004,100,14.43,Household,71,New York,Saturday
+25-02-2023,str_02,pdt_001,62,35.28,Beverage,11,Los Angeles,Saturday
+25-02-2023,str_03,pdt_002,42,34.64,Snack,33,Chicago,Saturday
+27-02-2023,str_01,pdt_001,67,49.58,Beverage,32,New York,Monday
+27-02-2023,str_02,pdt_005,74,46.56,Frozen,47,Los Angeles,Monday
+27-02-2023,str_03,pdt_003,99,45.3,Dairy,22,Chicago,Monday
+28-02-2023,str_01,pdt_002,94,34.91,Snack,61,New York,Tuesday
+28-02-2023,str_02,pdt_001,82,49.26,Beverage,87,Los Angeles,Tuesday
+28-02-2023,str_03,pdt_003,65,9.77,Dairy,36,Chicago,Tuesday
+01-03-2023,str_01,pdt_005,76,30.11,Frozen,98,New York,Wednesday
+01-03-2023,str_02,pdt_004,69,39.76,Household,43,Los Angeles,Wednesday
+01-03-2023,str_03,pdt_001,71,9.7,Beverage,85,Chicago,Wednesday
+02-03-2023,str_01,pdt_001,24,42.41,Beverage,90,New York,Thursday
+02-03-2023,str_02,pdt_003,68,40.29,Dairy,34,Los Angeles,Thursday
+02-03-2023,str_03,pdt_001,66,37.49,Beverage,64,Chicago,Thursday
+03-03-2023,str_01,pdt_003,15,41.46,Dairy,,New York,Friday
+03-03-2023,str_02,pdt_003,92,9.92,Dairy,98,Los Angeles,Friday
+03-03-2023,str_03,pdt_002,76,12.85,Snack,100,Chicago,Friday
+04-03-2023,str_01,pdt_004,69,15.43,Household,46,New York,Saturday
+04-03-2023,str_02,pdt_002,91,34.58,Snack,,Los Angeles,Saturday
+04-03-2023,str_03,pdt_005,35,25.23,Frozen,77,Chicago,Saturday
+06-03-2023,str_01,pdt_002,36,17.53,Snack,2,New York,Monday
+06-03-2023,str_02,pdt_005,33,21.46,Frozen,0,Los Angeles,Monday
+06-03-2023,str_03,pdt_003,95,43.82,Dairy,4,Chicago,Monday
+07-03-2023,str_01,pdt_005,60,31.42,Frozen,89,New York,Tuesday
+07-03-2023,str_02,pdt_004,89,12.76,Household,13,Los Angeles,Tuesday
+07-03-2023,str_03,pdt_005,20,35.24,Frozen,26,Chicago,Tuesday
+08-03-2023,str_01,pdt_003,24,13.24,Dairy,8,New York,Wednesday
+08-03-2023,str_02,pdt_004,86,11.2,,78,Los Angeles,Wednesday
+08-03-2023,str_03,pdt_004,91,29.18,Household,14,Chicago,Wednesday
+09-03-2023,str_01,pdt_004,46,11.31,Household,89,New York,Thursday
+09-03-2023,str_02,pdt_005,16,43.95,Frozen,41,Los Angeles,Thursday
+09-03-2023,str_03,pdt_002,59,48.37,Snack,76,Chicago,Thursday
+10-03-2023,str_01,pdt_004,63,36.96,Household,50,New York,Friday
+10-03-2023,str_02,pdt_001,82,6.39,Beverage,62,Los Angeles,Friday
+10-03-2023,str_03,pdt_003,38,29.19,Dairy,95,Chicago,Friday
+11-03-2023,str_01,pdt_005,73,29.74,Frozen,51,New York,Saturday
+11-03-2023,str_02,pdt_003,79,42.05,Dairy,95,Los Angeles,Saturday
+11-03-2023,str_03,pdt_001,66,29.59,Beverage,3,Chicago,Saturday
+13-03-2023,str_01,pdt_002,48,44.37,Snack,93,New York,Monday
+13-03-2023,str_02,pdt_003,21,24.76,Dairy,100,Los Angeles,Monday
+13-03-2023,str_03,pdt_002,36,41.48,Snack,22,Chicago,Monday
+14-03-2023,str_01,pdt_005,90,24.27,Frozen,14,New York,Tuesday
+14-03-2023,str_02,pdt_002,17,30.65,Snack,42,Los Angeles,Tuesday
+14-03-2023,str_03,pdt_002,51,49.06,Snack,28,Chicago,Tuesday
+15-03-2023,str_01,pdt_003,75,49.35,Dairy,35,New York,Wednesday
+15-03-2023,str_02,pdt_004,17,49.66,Household,12,Los Angeles,Wednesday
+15-03-2023,str_03,pdt_002,41,11.58,Snack,31,Chicago,Wednesday
+16-03-2023,str_01,pdt_004,72,11.4,Household,70,New York,Thursday
+16-03-2023,str_02,pdt_004,67,8.4,Household,58,Los Angeles,Thursday
+16-03-2023,str_03,pdt_003,98,47.14,Dairy,85,Chicago,Thursday
+17-03-2023,str_01,pdt_004,51,31.19,Household,27,New York,Friday
+17-03-2023,str_02,pdt_004,91,34.89,Household,65,Los Angeles,Friday
+17-03-2023,str_03,pdt_005,60,14.8,Frozen,41,Chicago,Friday
+18-03-2023,str_01,pdt_004,44,19.53,Household,44,New York,Saturday
+18-03-2023,str_02,pdt_005,26,30.48,Frozen,61,Los Angeles,Saturday
+18-03-2023,str_03,pdt_001,15,9.48,Beverage,,Chicago,Saturday
+20-03-2023,str_01,pdt_002,66,25.54,Snack,56,New York,Monday
+20-03-2023,str_02,pdt_002,93,18.58,Snack,,Los Angeles,Monday
+20-03-2023,str_03,pdt_003,42,8.71,Dairy,,Chicago,Monday
+21-03-2023,str_01,pdt_003,99,38.99,Dairy,5,New York,Tuesday
+21-03-2023,str_02,pdt_001,10,14.6,Beverage,27,Los Angeles,Tuesday
+21-03-2023,str_03,pdt_002,76,35.6,Snack,,Chicago,Tuesday
+22-03-2023,str_01,pdt_003,25,49.47,Dairy,27,New York,Wednesday
+22-03-2023,str_02,pdt_004,19,15.3,Household,43,Los Angeles,Wednesday
+22-03-2023,str_03,pdt_001,23,19.1,Beverage,83,Chicago,Wednesday
+23-03-2023,str_01,pdt_002,92,49.68,Snack,,New York,Thursday
+23-03-2023,str_02,pdt_005,11,32.46,Frozen,29,Los Angeles,Thursday
+23-03-2023,str_03,pdt_002,90,38.67,Snack,61,Chicago,Thursday
+24-03-2023,str_01,pdt_004,37,8.9,Household,74,New York,Friday
+24-03-2023,str_02,pdt_001,85,37.85,Beverage,91,Los Angeles,Friday
+24-03-2023,str_03,pdt_003,27,16.15,Dairy,88,Chicago,Friday
+25-03-2023,str_01,pdt_005,86,37.45,Frozen,61,New York,Saturday
+25-03-2023,str_02,pdt_001,94,44.41,Beverage,96,Los Angeles,Saturday
+25-03-2023,str_03,pdt_005,34,38.65,Frozen,0,Chicago,Saturday
+27-03-2023,str_01,pdt_002,73,22.36,Snack,26,New York,Monday
+27-03-2023,str_02,pdt_005,19,28.77,Frozen,61,Los Angeles,Monday
+27-03-2023,str_03,pdt_003,26,22.41,Dairy,76,Chicago,Monday
+28-03-2023,str_01,pdt_002,70,47.95,Snack,,New York,Tuesday
+28-03-2023,str_02,pdt_001,11,16.8,Beverage,2,Los Angeles,Tuesday
+28-03-2023,str_03,pdt_004,74,17.89,Household,69,Chicago,Tuesday
+29-03-2023,str_01,pdt_004,20,33.82,Household,71,New York,Wednesday
+29-03-2023,str_02,pdt_003,20,28.01,Dairy,26,Los Angeles,Wednesday
+29-03-2023,str_03,pdt_002,78,19.7,Snack,8,Chicago,Wednesday
+30-03-2023,str_01,pdt_004,40,7.61,Household,61,New York,Thursday
+30-03-2023,str_02,pdt_001,68,32.55,Beverage,36,Los Angeles,Thursday
+30-03-2023,str_03,pdt_002,25,5.57,Snack,96,Chicago,Thursday
+31-03-2023,str_01,pdt_002,73,47.89,Snack,50,New York,Friday
+31-03-2023,str_02,pdt_002,44,37.98,Snack,43,Los Angeles,Friday
+31-03-2023,str_03,pdt_001,52,41.32,Beverage,23,Chicago,Friday
+01-04-2023,str_01,pdt_003,83,33.24,Dairy,78,New York,Saturday
+01-04-2023,str_02,pdt_003,17,27.48,Dairy,58,Los Angeles,Saturday
+01-04-2023,str_03,pdt_003,23,45.24,Dairy,31,Chicago,Saturday
+03-04-2023,str_01,pdt_005,10,6.98,Frozen,95,New York,Monday
+03-04-2023,str_02,pdt_004,56,22.23,Household,87,Los Angeles,Monday
+03-04-2023,str_03,pdt_001,80,41.14,Beverage,51,Chicago,Monday
+04-04-2023,str_01,pdt_002,63,46.21,Snack,61,New York,Tuesday
+04-04-2023,str_02,pdt_001,83,21.78,Beverage,57,Los Angeles,Tuesday
+04-04-2023,str_03,pdt_005,15,47.93,Frozen,51,Chicago,Tuesday
+05-04-2023,str_01,pdt_003,49,19.73,Dairy,,New York,Wednesday
+05-04-2023,str_02,pdt_002,47,30.37,Snack,11,Los Angeles,Wednesday
+05-04-2023,str_03,pdt_002,69,21.57,Snack,38,Chicago,Wednesday
+06-04-2023,str_01,pdt_002,79,39.22,Snack,1,New York,Thursday
+06-04-2023,str_02,pdt_004,13,15.48,,2,Los Angeles,Thursday
+06-04-2023,str_03,pdt_001,52,5.07,Beverage,100,Chicago,Thursday
+07-04-2023,str_01,pdt_003,23,14.23,Dairy,55,New York,Friday
+07-04-2023,str_02,pdt_001,28,37.02,Beverage,,Los Angeles,Friday
+07-04-2023,str_03,pdt_002,76,23.59,Snack,80,Chicago,Friday
+08-04-2023,str_01,pdt_001,84,9.3,Beverage,58,New York,Saturday
+08-04-2023,str_02,pdt_004,19,31.64,Household,1,Los Angeles,Saturday
+08-04-2023,str_03,pdt_002,40,18.13,Snack,1,Chicago,Saturday
+10-04-2023,str_01,pdt_004,99,42.44,Household,91,New York,Monday
+10-04-2023,str_02,pdt_003,39,8.36,Dairy,53,Los Angeles,Monday
+10-04-2023,str_03,pdt_005,23,11.99,Frozen,86,Chicago,Monday
+11-04-2023,str_01,pdt_003,62,10.43,Dairy,100,New York,Tuesday
+11-04-2023,str_02,pdt_002,67,18.87,Snack,95,Los Angeles,Tuesday
+11-04-2023,str_03,pdt_001,30,41.34,Beverage,96,Chicago,Tuesday
+12-04-2023,str_01,pdt_005,15,14.68,Frozen,0,New York,Wednesday
+12-04-2023,str_02,pdt_002,55,22.83,Snack,18,Los Angeles,Wednesday
+12-04-2023,str_03,pdt_003,32,6.4,Dairy,1,Chicago,Wednesday
+13-04-2023,str_01,pdt_005,80,16.24,Frozen,52,New York,Thursday
+13-04-2023,str_02,pdt_002,25,5.54,Snack,43,Los Angeles,Thursday
+13-04-2023,str_03,pdt_004,57,35.88,Household,89,Chicago,Thursday
+14-04-2023,str_01,pdt_003,19,5.98,Dairy,31,New York,Friday
+14-04-2023,str_02,pdt_004,26,9.14,Household,69,Los Angeles,Friday
+14-04-2023,str_03,pdt_004,16,12.56,Household,31,Chicago,Friday
+15-04-2023,str_01,pdt_004,73,6.33,Household,67,New York,Saturday
+15-04-2023,str_02,pdt_002,33,17.37,Snack,54,Los Angeles,Saturday
+15-04-2023,str_03,pdt_001,88,32.86,Beverage,74,Chicago,Saturday
+17-04-2023,str_01,pdt_004,62,44.73,Household,,New York,Monday
+17-04-2023,str_02,pdt_003,59,11.18,Dairy,55,Los Angeles,Monday
+17-04-2023,str_03,pdt_005,41,33.38,Frozen,16,Chicago,Monday
+18-04-2023,str_01,pdt_003,71,29.5,Dairy,37,New York,Tuesday
+18-04-2023,str_02,pdt_005,74,19.47,Frozen,23,Los Angeles,Tuesday
+18-04-2023,str_03,pdt_003,86,14.86,Dairy,,Chicago,Tuesday
+19-04-2023,str_01,pdt_004,77,21.08,Household,68,New York,Wednesday
+19-04-2023,str_02,pdt_001,41,34.56,Beverage,97,Los Angeles,Wednesday
+19-04-2023,str_03,pdt_001,38,30.91,Beverage,69,Chicago,Wednesday
+20-04-2023,str_01,pdt_002,32,15.64,Snack,85,New York,Thursday
+20-04-2023,str_02,pdt_003,85,6.27,Dairy,10,Los Angeles,Thursday
+20-04-2023,str_03,pdt_005,28,30.34,Frozen,15,Chicago,Thursday
+21-04-2023,str_01,pdt_004,79,18.91,Household,,New York,Friday
+21-04-2023,str_02,pdt_001,39,32.07,Beverage,96,Los Angeles,Friday
+21-04-2023,str_03,pdt_001,52,46.31,Beverage,72,Chicago,Friday
+22-04-2023,str_01,pdt_003,32,46.35,Dairy,,New York,Saturday
+22-04-2023,str_02,pdt_002,85,36.71,Snack,58,Los Angeles,Saturday
+22-04-2023,str_03,pdt_005,56,48.23,Frozen,69,Chicago,Saturday
+24-04-2023,str_01,pdt_004,85,9.55,Household,79,New York,Monday
+24-04-2023,str_02,pdt_002,65,40.63,Snack,92,Los Angeles,Monday
+24-04-2023,str_03,pdt_002,100,48.59,Snack,2,Chicago,Monday
+25-04-2023,str_01,pdt_005,32,22.03,Frozen,19,New York,Tuesday
+25-04-2023,str_02,pdt_001,99,47.69,Beverage,58,Los Angeles,Tuesday
+25-04-2023,str_03,pdt_005,14,13.19,Frozen,35,Chicago,Tuesday
+26-04-2023,str_01,pdt_005,38,33.78,Frozen,18,New York,Wednesday
+26-04-2023,str_02,pdt_002,52,38.54,Snack,89,Los Angeles,Wednesday
+26-04-2023,str_03,pdt_003,31,33.63,Dairy,66,Chicago,Wednesday
+27-04-2023,str_01,pdt_003,67,5.51,Dairy,18,New York,Thursday
+27-04-2023,str_02,pdt_001,54,16.55,Beverage,19,Los Angeles,Thursday
+27-04-2023,str_03,pdt_001,59,24.72,,95,Chicago,Thursday
+28-04-2023,str_01,pdt_004,73,44.68,Household,70,New York,Friday
+28-04-2023,str_02,pdt_001,71,40.49,Beverage,51,Los Angeles,Friday
+28-04-2023,str_03,pdt_001,14,18.27,Beverage,32,Chicago,Friday
+29-04-2023,str_01,pdt_001,19,20.38,Beverage,39,New York,Saturday
+29-04-2023,str_02,pdt_001,80,47.38,Beverage,38,Los Angeles,Saturday
+29-04-2023,str_03,pdt_005,71,36.7,Frozen,81,Chicago,Saturday
+01-05-2023,str_01,pdt_002,87,45.04,Snack,,New York,Monday
+01-05-2023,str_02,pdt_003,36,48.85,Dairy,0,Los Angeles,Monday
+01-05-2023,str_03,pdt_005,43,34.73,Frozen,10,Chicago,Monday
+02-05-2023,str_01,pdt_001,60,30.73,Beverage,91,New York,Tuesday
+02-05-2023,str_02,pdt_003,10,24.24,Dairy,56,Los Angeles,Tuesday
+02-05-2023,str_03,pdt_005,71,13.99,Frozen,88,Chicago,Tuesday
+03-05-2023,str_01,pdt_003,20,26.31,Dairy,49,New York,Wednesday
+03-05-2023,str_02,pdt_004,70,27.01,Household,,Los Angeles,Wednesday
+03-05-2023,str_03,pdt_005,59,13.32,Frozen,22,Chicago,Wednesday
+04-05-2023,str_01,pdt_004,15,16.85,Household,30,New York,Thursday
+04-05-2023,str_02,pdt_003,82,7.77,Dairy,,Los Angeles,Thursday
+04-05-2023,str_03,pdt_003,79,23.63,Dairy,93,Chicago,Thursday
+05-05-2023,str_01,pdt_004,76,23.84,Household,41,New York,Friday
+05-05-2023,str_02,pdt_002,70,18.45,Snack,98,Los Angeles,Friday
+05-05-2023,str_03,pdt_001,74,30.7,Beverage,6,Chicago,Friday
+06-05-2023,str_01,pdt_004,32,47.71,Household,15,New York,Saturday
+06-05-2023,str_02,pdt_002,26,6.92,Snack,89,Los Angeles,Saturday
+06-05-2023,str_03,pdt_004,35,49.88,Household,59,Chicago,Saturday
+08-05-2023,str_01,pdt_003,50,45.99,Dairy,,New York,Monday
+08-05-2023,str_02,pdt_005,60,29.84,Frozen,1,Los Angeles,Monday
+08-05-2023,str_03,pdt_001,99,33.04,Beverage,0,Chicago,Monday
+09-05-2023,str_01,pdt_002,28,30.5,Snack,47,New York,Tuesday
+09-05-2023,str_02,pdt_005,22,40.36,Frozen,11,Los Angeles,Tuesday
+09-05-2023,str_03,pdt_003,59,34.47,Dairy,,Chicago,Tuesday
+10-05-2023,str_01,pdt_003,61,11.47,Dairy,,New York,Wednesday
+10-05-2023,str_02,pdt_003,98,15.69,Dairy,68,Los Angeles,Wednesday
+10-05-2023,str_03,pdt_003,12,20.2,Dairy,36,Chicago,Wednesday
+11-05-2023,str_01,pdt_004,99,35.82,Household,31,New York,Thursday
+11-05-2023,str_02,pdt_004,51,17.12,Household,8,Los Angeles,Thursday
+11-05-2023,str_03,pdt_001,34,24.88,Beverage,98,Chicago,Thursday
+12-05-2023,str_01,pdt_005,57,41.95,Frozen,,New York,Friday
+12-05-2023,str_02,pdt_005,61,11.1,Frozen,18,Los Angeles,Friday
+12-05-2023,str_03,pdt_002,17,16.23,Snack,,Chicago,Friday
+13-05-2023,str_01,pdt_003,100,13.96,Dairy,47,New York,Saturday
+13-05-2023,str_02,pdt_005,60,33.59,Frozen,79,Los Angeles,Saturday
+13-05-2023,str_03,pdt_002,57,27,Snack,2,Chicago,Saturday
+15-05-2023,str_01,pdt_004,85,29.81,Household,19,New York,Monday
+15-05-2023,str_02,pdt_003,98,9.07,Dairy,23,Los Angeles,Monday
+15-05-2023,str_03,pdt_002,83,40.09,Snack,53,Chicago,Monday
+16-05-2023,str_01,pdt_002,96,14.3,Snack,32,New York,Tuesday
+16-05-2023,str_02,pdt_001,70,46.02,Beverage,23,Los Angeles,Tuesday
+16-05-2023,str_03,pdt_001,38,16.36,Beverage,74,Chicago,Tuesday
+17-05-2023,str_01,pdt_003,64,45.3,Dairy,71,New York,Wednesday
+17-05-2023,str_02,pdt_002,69,18.6,Snack,35,Los Angeles,Wednesday
+17-05-2023,str_03,pdt_001,75,49.97,Beverage,37,Chicago,Wednesday
+18-05-2023,str_01,pdt_005,87,17.72,Frozen,83,New York,Thursday
+18-05-2023,str_02,pdt_003,45,33.83,Dairy,98,Los Angeles,Thursday
+18-05-2023,str_03,pdt_003,34,11.75,Dairy,88,Chicago,Thursday
+19-05-2023,str_01,pdt_005,61,34.72,Frozen,98,New York,Friday
+19-05-2023,str_02,pdt_004,47,16.67,Household,24,Los Angeles,Friday
+19-05-2023,str_03,pdt_001,84,36.86,Beverage,92,Chicago,Friday
+20-05-2023,str_01,pdt_002,97,29.06,Snack,17,New York,Saturday
+20-05-2023,str_02,pdt_003,74,18.51,Dairy,81,Los Angeles,Saturday
+20-05-2023,str_03,pdt_005,33,18.22,Frozen,65,Chicago,Saturday
+22-05-2023,str_01,pdt_003,81,39.33,Dairy,53,New York,Monday
+22-05-2023,str_02,pdt_003,93,9.02,Dairy,34,Los Angeles,Monday
+22-05-2023,str_03,pdt_003,63,40.46,Dairy,79,Chicago,Monday
+23-05-2023,str_01,pdt_005,47,25.87,Frozen,60,New York,Tuesday
+23-05-2023,str_02,pdt_005,84,47.49,Frozen,40,Los Angeles,Tuesday
+23-05-2023,str_03,pdt_002,74,10.39,Snack,99,Chicago,Tuesday
+24-05-2023,str_01,pdt_004,16,44.19,Household,32,New York,Wednesday
+24-05-2023,str_02,pdt_002,53,23.41,Snack,67,Los Angeles,Wednesday
+24-05-2023,str_03,pdt_002,20,26.94,Snack,32,Chicago,Wednesday
+25-05-2023,str_01,pdt_001,10,25.34,Beverage,13,New York,Thursday
+25-05-2023,str_02,pdt_002,83,39.4,Snack,20,Los Angeles,Thursday
+25-05-2023,str_03,pdt_001,26,32.65,Beverage,47,Chicago,Thursday
+26-05-2023,str_01,pdt_004,59,5.21,Household,19,New York,Friday
+26-05-2023,str_02,pdt_001,51,39.06,Beverage,,Los Angeles,Friday
+26-05-2023,str_03,pdt_001,90,38.01,Beverage,7,Chicago,Friday
+27-05-2023,str_01,pdt_003,49,10.8,Dairy,6,New York,Saturday
+27-05-2023,str_02,pdt_003,31,7.94,Dairy,66,Los Angeles,Saturday
+27-05-2023,str_03,pdt_003,68,37.75,Dairy,16,Chicago,Saturday
+29-05-2023,str_01,pdt_002,53,49.83,Snack,32,New York,Monday
+29-05-2023,str_02,pdt_002,31,47.66,Snack,,Los Angeles,Monday
+29-05-2023,str_03,pdt_002,26,14.5,Snack,47,Chicago,Monday
+30-05-2023,str_01,pdt_002,25,21.5,Snack,75,New York,Tuesday
+30-05-2023,str_02,pdt_003,78,33.04,Dairy,58,Los Angeles,Tuesday
+30-05-2023,str_03,pdt_001,16,36.04,Beverage,85,Chicago,Tuesday
+31-05-2023,str_01,pdt_001,80,16.37,Beverage,21,New York,Wednesday
+31-05-2023,str_02,pdt_001,48,23.94,Beverage,29,Los Angeles,Wednesday
+31-05-2023,str_03,pdt_003,89,32.25,Dairy,37,Chicago,Wednesday
+01-06-2023,str_01,pdt_001,75,37.34,Beverage,50,New York,Thursday
+01-06-2023,str_02,pdt_001,73,13.94,Beverage,53,Los Angeles,Thursday
+01-06-2023,str_03,pdt_005,35,21.11,Frozen,7,Chicago,Thursday
+02-06-2023,str_01,pdt_001,80,27.34,Beverage,26,New York,Friday
+02-06-2023,str_02,pdt_004,52,15.55,Household,26,Los Angeles,Friday
+02-06-2023,str_03,pdt_001,83,35.11,Beverage,97,Chicago,Friday
+03-06-2023,str_01,pdt_005,19,37.56,Frozen,20,New York,Saturday
+03-06-2023,str_02,pdt_002,68,49.49,Snack,29,Los Angeles,Saturday
+03-06-2023,str_03,pdt_001,22,41.59,Beverage,96,Chicago,Saturday
+05-06-2023,str_01,pdt_003,96,19.07,Dairy,,New York,Monday
+05-06-2023,str_02,pdt_001,11,43.34,Beverage,27,Los Angeles,Monday
+05-06-2023,str_03,pdt_004,89,17.07,Household,63,Chicago,Monday
+06-06-2023,str_01,pdt_003,33,10.12,Dairy,96,New York,Tuesday
+06-06-2023,str_02,pdt_003,59,36.05,Dairy,68,Los Angeles,Tuesday
+06-06-2023,str_03,pdt_002,24,10.96,Snack,60,Chicago,Tuesday
+07-06-2023,str_01,pdt_002,23,23.72,Snack,47,New York,Wednesday
+07-06-2023,str_02,pdt_004,33,32.51,Household,18,Los Angeles,Wednesday
+07-06-2023,str_03,pdt_002,71,46.42,Snack,3,Chicago,Wednesday
+08-06-2023,str_01,pdt_004,15,7.85,Household,,New York,Thursday
+08-06-2023,str_02,pdt_005,83,37.57,Frozen,34,Los Angeles,Thursday
+08-06-2023,str_03,pdt_003,76,28.54,Dairy,63,Chicago,Thursday
+09-06-2023,str_01,pdt_002,71,20.56,Snack,48,New York,Friday
+09-06-2023,str_02,pdt_005,88,7.46,Frozen,16,Los Angeles,Friday
+09-06-2023,str_03,pdt_004,73,44.12,Household,43,Chicago,Friday
+10-06-2023,str_01,pdt_003,40,19.89,Dairy,,New York,Saturday
+10-06-2023,str_02,pdt_002,80,33.95,Snack,91,Los Angeles,Saturday
+10-06-2023,str_03,pdt_001,68,24.99,Beverage,,Chicago,Saturday
+12-06-2023,str_01,pdt_004,67,19.22,Household,29,New York,Monday
+12-06-2023,str_02,pdt_001,23,23.15,Beverage,92,Los Angeles,Monday
+12-06-2023,str_03,pdt_001,21,40.63,Beverage,45,Chicago,Monday
+13-06-2023,str_01,pdt_005,36,34.46,Frozen,5,New York,Tuesday
+13-06-2023,str_02,pdt_003,16,41.75,Dairy,98,Los Angeles,Tuesday
+13-06-2023,str_03,pdt_005,86,26.29,Frozen,36,Chicago,Tuesday
+14-06-2023,str_01,pdt_001,22,39.17,Beverage,,New York,Wednesday
+14-06-2023,str_02,pdt_003,91,48.4,Dairy,23,Los Angeles,Wednesday
+14-06-2023,str_03,pdt_003,99,9.78,Dairy,92,Chicago,Wednesday
+15-06-2023,str_01,pdt_004,23,16.44,Household,45,New York,Thursday
+15-06-2023,str_02,pdt_004,37,25.57,Household,52,Los Angeles,Thursday
+15-06-2023,str_03,pdt_001,63,7.09,Beverage,94,Chicago,Thursday
+16-06-2023,str_01,pdt_004,68,34.63,Household,98,New York,Friday
+16-06-2023,str_02,pdt_001,77,38.13,Beverage,59,Los Angeles,Friday
+16-06-2023,str_03,pdt_004,75,40.15,Household,96,Chicago,Friday
+17-06-2023,str_01,pdt_002,26,9.66,Snack,62,New York,Saturday
+17-06-2023,str_02,pdt_004,63,49.08,Household,84,Los Angeles,Saturday
+17-06-2023,str_03,pdt_003,47,25.38,Dairy,31,Chicago,Saturday
+19-06-2023,str_01,pdt_005,99,44.89,Frozen,86,New York,Monday
+19-06-2023,str_02,pdt_005,50,37.03,Frozen,32,Los Angeles,Monday
+19-06-2023,str_03,pdt_005,47,35.9,Frozen,66,Chicago,Monday
+20-06-2023,str_01,pdt_002,74,29.41,Snack,17,New York,Tuesday
+20-06-2023,str_02,pdt_003,81,26.62,Dairy,24,Los Angeles,Tuesday
+20-06-2023,str_03,pdt_005,46,44.49,Frozen,94,Chicago,Tuesday
+21-06-2023,str_01,pdt_005,23,6.14,Frozen,,New York,Wednesday
+21-06-2023,str_02,pdt_001,35,17.01,Beverage,53,Los Angeles,Wednesday
+21-06-2023,str_03,pdt_003,28,42.77,,57,Chicago,Wednesday
+22-06-2023,str_01,pdt_005,14,21.14,Frozen,66,New York,Thursday
+22-06-2023,str_02,pdt_005,38,38.41,Frozen,45,Los Angeles,Thursday
+22-06-2023,str_03,pdt_003,98,34.9,Dairy,23,Chicago,Thursday
+23-06-2023,str_01,pdt_003,80,7.42,Dairy,31,New York,Friday
+23-06-2023,str_02,pdt_004,38,46.02,Household,46,Los Angeles,Friday
+23-06-2023,str_03,pdt_005,87,13.84,Frozen,85,Chicago,Friday
+24-06-2023,str_01,pdt_002,97,8.35,Snack,22,New York,Saturday
+24-06-2023,str_02,pdt_001,58,6.83,Beverage,65,Los Angeles,Saturday
+24-06-2023,str_03,pdt_002,30,31.28,Snack,,Chicago,Saturday

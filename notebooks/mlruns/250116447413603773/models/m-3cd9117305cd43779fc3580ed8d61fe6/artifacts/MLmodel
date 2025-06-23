@@ -1,0 +1,50 @@
+artifact_path: file:///C:/Users/HP/Repositories/Projects/Retail_Sales_Forecast/notebooks/mlruns/250116447413603773/models/m-3cd9117305cd43779fc3580ed8d61fe6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.0
+model_id: m-3cd9117305cd43779fc3580ed8d61fe6
+model_size_bytes: 2936
+model_uuid: m-3cd9117305cd43779fc3580ed8d61fe6
+prompts: null
+run_id: 2f4f67ffae5941ba895037edcd30195b
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "price", "required": true}, {"type": "double",
+    "name": "stock_available", "required": true}, {"type": "double", "name": "store_id_str_02",
+    "required": true}, {"type": "double", "name": "store_id_str_03", "required": true},
+    {"type": "double", "name": "product_id_pdt_002", "required": true}, {"type": "double",
+    "name": "product_id_pdt_003", "required": true}, {"type": "double", "name": "product_id_pdt_004",
+    "required": true}, {"type": "double", "name": "product_id_pdt_005", "required":
+    true}, {"type": "double", "name": "product_category_Dairy", "required": true},
+    {"type": "double", "name": "product_category_Frozen", "required": true}, {"type":
+    "double", "name": "product_category_Household", "required": true}, {"type": "double",
+    "name": "product_category_Snack", "required": true}, {"type": "double", "name":
+    "store_location_Los_Angeles", "required": true}, {"type": "double", "name": "store_location_New_York",
+    "required": true}, {"type": "double", "name": "weekday_Monday", "required": true},
+    {"type": "double", "name": "weekday_Saturday", "required": true}, {"type": "double",
+    "name": "weekday_Thursday", "required": true}, {"type": "double", "name": "weekday_Tuesday",
+    "required": true}, {"type": "double", "name": "weekday_Wednesday", "required":
+    true}, {"type": "double", "name": "revenue", "required": true}, {"type": "double",
+    "name": "day", "required": true}, {"type": "double", "name": "month", "required":
+    true}, {"type": "double", "name": "year", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-23 10:06:38.291276'

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Repositories/Projects/Retail_Sales_Forecast/notebooks/mlruns/250116447413603773/5b1262a3475147d69e6ba1c5d0fde1dc/artifacts
+deleted_time: 1750666466421
+end_time: 1750656918786
+entry_point_name: ''
+experiment_id: '250116447413603773'
+lifecycle_stage: deleted
+run_id: 5b1262a3475147d69e6ba1c5d0fde1dc
+run_name: LinearRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750656906669
+status: 3
+tags: []
+user_id: HP

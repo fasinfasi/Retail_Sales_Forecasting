@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Repositories/Projects/Retail_Sales_Forecast/notebooks/mlruns/250116447413603773/7e8dde6fecc44513a17e0264a35b4a99/artifacts
+deleted_time: 1750667354589
+end_time: 1750666279636
+entry_point_name: ''
+experiment_id: '250116447413603773'
+lifecycle_stage: deleted
+run_id: 7e8dde6fecc44513a17e0264a35b4a99
+run_name: capable-pig-443
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750666273457
+status: 3
+tags: []
+user_id: HP

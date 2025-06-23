@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/HP/Repositories/Projects/Retail_Sales_Forecast/notebooks/mlruns/250116447413603773/models/m-7691214a575b4484a30c0b111f1fe8e5/artifacts
+creation_timestamp: 1750615235821
+experiment_id: '250116447413603773'
+last_updated_timestamp: 1750615246233
+model_id: m-7691214a575b4484a30c0b111f1fe8e5
+model_type: null
+name: model
+source_run_id: 100afc0f9f1b4f02b28ea9b798a32ed9
+status: 2
+status_message: null

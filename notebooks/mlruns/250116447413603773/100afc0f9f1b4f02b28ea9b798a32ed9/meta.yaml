@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Repositories/Projects/Retail_Sales_Forecast/notebooks/mlruns/250116447413603773/100afc0f9f1b4f02b28ea9b798a32ed9/artifacts
+end_time: 1750615246385
+entry_point_name: ''
+experiment_id: '250116447413603773'
+lifecycle_stage: active
+run_id: 100afc0f9f1b4f02b28ea9b798a32ed9
+run_name: smiling-pug-291
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750615235695
+status: 3
+tags: []
+user_id: HP

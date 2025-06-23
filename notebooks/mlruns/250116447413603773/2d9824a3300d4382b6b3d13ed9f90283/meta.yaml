@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Repositories/Projects/Retail_Sales_Forecast/notebooks/mlruns/250116447413603773/2d9824a3300d4382b6b3d13ed9f90283/artifacts
+end_time: 1750650215838
+entry_point_name: ''
+experiment_id: '250116447413603773'
+lifecycle_stage: active
+run_id: 2d9824a3300d4382b6b3d13ed9f90283
+run_name: awesome-lark-394
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750650203759
+status: 3
+tags: []
+user_id: HP

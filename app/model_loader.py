@@ -1,9 +1,13 @@
 import pickle
 import pandas as pd
 
-with open("./models/model_best.pkl", "rb") as f:
-    model = pickle.load(f)
+try:
+    with open("./models/model_best.pkl", "rb") as f:
+        model = pickle.load(f)
+except Exception as e:
+    raise RuntimeError(f"Error loading model: {e}")
+
 
 def predict(input_data: pd.DataFrame):
-    prediction = model.predict(input_data)
-    return prediction
+    print("input_data.columns:", input_data.columns.tolist())
+    return model.predict(input_data)

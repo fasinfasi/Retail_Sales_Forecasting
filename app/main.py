@@ -11,6 +11,13 @@ def read_root():
 
 @app.post("/predict")
 def get_prediction(payload: SalesInput):
-    input_df = pd.DataFrame([payload.dict()])
-    result = predict(input_df)
-    return {"prediction": result[0]}
+    try:
+        input_df = pd.DataFrame([payload.dict()])
+        print("Received input:\n", input_df)
+        result = predict(input_df)
+        print("Prediction result:", result)
+        return {"prediction": result[0]}
+    except Exception as e:
+        print("Prediction failed:", e)
+        return {"error": str(e)}
+

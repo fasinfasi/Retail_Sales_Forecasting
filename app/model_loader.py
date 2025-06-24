@@ -1,13 +1,22 @@
 import pickle
+import numpy as np
 import pandas as pd
 
+# Load the model
 try:
-    with open("./models/model_best.pkl", "rb") as f:
+    with open("../models/model_best.pkl", "rb") as f:
         model = pickle.load(f)
+    print("✅ Model loaded successfully.")
 except Exception as e:
-    raise RuntimeError(f"Error loading model: {e}")
+    print("❌ Error loading model:", e)
 
-
-def predict(input_data: pd.DataFrame):
-    print("input_data.columns:", input_data.columns.tolist())
-    return model.predict(input_data)
+# Define prediction function compatible with FastAPI
+def predict(data: pd.DataFrame):
+    try:
+        print("📦 Data received for prediction:", data)
+        prediction = model.predict(data)
+        print("✅ Prediction successful:", prediction)
+        return prediction
+    except Exception as e:
+        print("❌ Prediction failed:", e)
+        raise e

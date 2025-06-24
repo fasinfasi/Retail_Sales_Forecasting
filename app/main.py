@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from schema import SalesInput
-from model_loader import predict
+from .schema import SalesInput
+from .model_loader import predict
 import pandas as pd
 
 app = FastAPI()

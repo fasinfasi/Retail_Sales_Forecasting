@@ -2,8 +2,17 @@ from fastapi import FastAPI
 from .schema import SalesInput
 from .model_loader import predict
 import pandas as pd
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Replace "*" with ["http://localhost:3001"] for more secure setup
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def read_root():

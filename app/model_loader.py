@@ -4,7 +4,7 @@ import pandas as pd
 
 # Load the model
 try:
-    with open("../models/model_best.pkl", "rb") as f:
+    with open("./models/model_best.pkl", "rb") as f:
         model = pickle.load(f)
     print("✅ Model loaded successfully.")
 except Exception as e:

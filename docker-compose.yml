@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  backend:
+    build: ./app
+    ports:
+      - "8001:8001"  # This makes it accessible via localhost:8001
+    networks:
+      - app-network
+    
+  frontend:
+    build: ./ui
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+    # Add this to make the frontend accessible from host
+    environment:
+      - REACT_APP_API_URL=http://localhost:8001
+
+networks:
+  app-network:
+    driver: bridge

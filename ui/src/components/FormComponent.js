@@ -25,7 +25,7 @@ const getApiUrl = () => {
   
   // For Docker Compose, use the service name
   // This might not work from browser, so we'll handle it differently
-  return 'http://localhost:8001';
+  return 'http://3.110.195.53:8001';
 };
 
 const API_BASE_URL = getApiUrl();

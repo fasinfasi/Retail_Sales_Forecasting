@@ -1,10 +1,10 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from schema import SalesInput
 from model_loader import predict
 import pandas as pd
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi import FastAPI, HTTPException, Request
 import logging
+import uvicorn
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -32,7 +32,6 @@ app.add_middleware(
 def read_root():
     return {"message": "Welcome to the Retail Sales Forecast API!"}
 
-# Add GET endpoint for /predict to show API documentation
 @app.get("/predict")
 def predict_info():
     return {
@@ -61,18 +60,19 @@ def predict_info():
 @app.post("/predict")
 def get_prediction(data: SalesInput):
     try:
-        # Step 1: Convert to dict
         raw = data.dict()
-        print("Raw input data:", raw)  # Debug print
+        print("Raw input data:", raw)
         
-        # Step 2: Create DataFrame (let model_loader handle encoding)
         df = pd.DataFrame([raw])
-        print("DataFrame created:", df)  # Debug print
+        print("DataFrame created:", df)
         
-        # Step 3: Get prediction
         prediction = predict(df)
         return {"prediction": float(prediction[0])}
         
     except Exception as e:
         print("Prediction failed at API level:", str(e))
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
+# ✅ Entry point for local or direct execution
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)

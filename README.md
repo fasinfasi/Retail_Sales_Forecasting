@@ -1,7 +1,19 @@
 # 📦Retail Sales Forecasting Web App📈
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-FFDE59?logo=googlecloud&logoColor=black" />
+  <img src="https://img.shields.io/badge/Mlflow-CC6CE7?logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React.js-61DAFB?logo=react&logoColor=black" />
+</p>
+
+
 #### Ever wondered how store managers decide how much stock to keep for tomorrow? 🤔
 #### Well, I built a smart tool that predicts how many units of each product will sell on any given day helping stock management easier, avoiding overstocking or understocking.
+
+🔗 [Live](http://3.110.195.53:3000/)
 
 ## 📌 Features
 - 🔍 Predict sales for specific product on a selected date
@@ -10,14 +22,14 @@
 - 📦 Full-stack deployment using PM2 on AWS EC2 Ubuntu server
 - 📱 Accessible from both mobile and desktop devices
 
-## 🧠 Machine Learning
-### ✔️ Models Trained
+### 🧠 Machine Learning
+##### ✔️ Models Trained
 - Linear Regression
 - LightGBM
 - XGBoost
 - Random Forest Regressor✅ (selected)
 
-## 🏆 Why Random Forest?
+### 🏆 Why Random Forest?
 #### After experimenting with different algorithms, Random Forest gave the best performance in terms of accuracy and generalization, especially on unseen data. It's also robust to overfitting and handles non-linear relationships well perfect for fluctuating sales data.
 
 ![MLflow models performance](images/retail-MLFlow.png)
@@ -33,7 +45,7 @@
 - 🕸️React.js
 - 🧪 MLflow
 - ☁️ AWS EC2 (Ubuntu)
-- Docker
+- 🐳 Docker
 
 ## 📂 Project Structure
 ```
